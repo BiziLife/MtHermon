@@ -1,32 +1,31 @@
 "use client";
 import Navbar from '../app/components/Navbar';
 import React from "react";
+import Footer from '../app/components/Footer';
+
 
 export default function HomePage() {
   return (
     <div>
       <Navbar />
       <main className="min-h-screen bg-base-100">
-        {/* 
-          Hero Section 
-          A large, visually striking section with a background image or gradient.
-        */}
-        <div
-          className="hero min-h-screen"
+        <div className="hero min-h-screen bg-cover bg-center"
           style={{
-            backgroundImage:
-              'url("https://images.unsplash.com/photo-1552265797-028d99f8eac2?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80")',
+            backgroundImage: `
+              linear-gradient(
+                rgba(0, 0, 0, 0.5),
+                rgba(0, 0, 0, 0.7)
+              ), 
+              url("/images/Hero.png")
+            `
           }}
         >
-          <div className="hero-overlay bg-black bg-opacity-60" />
+          <div className="hero-overlay" />
           <div className="hero-content text-center text-neutral-content">
             <div className="max-w-3xl">
-              <h1 className="mb-5 text-5xl font-bold">Welcome to Mount Hermon Church</h1>
-              <p className="mb-8 text-lg">
-                Experience passionate worship, uplifting messages, and a community that 
-                feels like family. We’re glad you’re here!
-              </p>
-              <button className="btn btn-primary">Plan a Visit</button>
+              <h1 className="mb-5 text-5xl font-bold">Welcome to Mt Hermon Church</h1>
+              <p className="mb-8 text-lg"> A Place to Belong, A Family to Grow With </p>
+              <button className="btn btn-primary bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">Plan a Visit</button>
             </div>
           </div>
         </div>
@@ -126,17 +125,8 @@ export default function HomePage() {
             </div>
           </div>
         </section>
-
-        {/* Call to Action */}
-        <section className="bg-primary text-primary-content text-center py-12">
-          <h2 className="text-3xl font-bold mb-4">Join Us This Sunday!</h2>
-          <p className="max-w-lg mx-auto mb-6">
-            We cant wait to welcome you. Experience uplifting worship, 
-            practical teaching, and a loving community.
-          </p>
-          <button className="btn btn-accent">Find a Location</button>
-        </section>
       </main>
+      <Footer />
     </div>
   );
 }
