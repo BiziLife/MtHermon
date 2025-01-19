@@ -38,7 +38,7 @@ export default function EventsPage() {
     },
     {
       id: 4,
-      title: "Men’s Retreat",
+      title: 'Mens Retreat',
       date: "May 15-17, 2025",
       location: "Camp Mount Hermon",
       description:
@@ -50,7 +50,7 @@ export default function EventsPage() {
       id: 5,
       title: "Vacation Bible School",
       date: "June 8-12, 2025",
-      location: "Children’s Wing",
+      location: "Children Wing",
       description:
         "Kids will enjoy a fun-filled week of Bible lessons, games, crafts, and music.",
       image:
