@@ -15,7 +15,7 @@ export default function ServicesPage() {
             <div className="max-w-xl">
                 <h1 className="mb-5 text-5xl font-bold">Our Ministries & Services</h1>
                 <p className="mb-5">
-                Whether you’re a student, a parent, or simply seeking fellowship, 
+                Whether you are a student, a parent, or simply seeking fellowship, 
                 Mount Hermon Church offers groups and ministries for every stage of life.
                 </p>
                 <button className="btn btn-primary">Join Us</button>
@@ -79,9 +79,9 @@ export default function ServicesPage() {
             {/* Children’s Ministry (Optional) */}
             <div className="card bg-base-100 shadow-xl">
                 <div className="card-body">
-                <h3 className="card-title text-xl font-bold">Children’s Ministry</h3>
+                <h3 className="card-title text-xl font-bold">Childrens Ministry</h3>
                 <p>
-                    Our dedicated children’s ministry team offers interactive programs 
+                    Our dedicated childrens ministry team offers interactive programs 
                     and lessons to help young hearts grow in their faith.
                 </p>
                 <div className="card-actions justify-end">
@@ -110,7 +110,7 @@ export default function ServicesPage() {
                 <h3 className="card-title text-xl font-bold">Missions & Outreach</h3>
                 <p>
                     From local community service to global missions, 
-                    be part of sharing God’s love beyond the walls of the church.
+                    be part of sharing Gods love beyond the walls of the church.
                 </p>
                 <div className="card-actions justify-end">
                     <button className="btn btn-primary">Learn More</button>

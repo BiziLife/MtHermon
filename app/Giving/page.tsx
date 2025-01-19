@@ -17,7 +17,6 @@ export default function GivingPage() {
               rgba(0, 0, 0, 0.3),
               rgba(0, 0, 0, 0.5)
             ),
-            url("https://images.unsplash.com/photo-1485963631004-f2f00b1d6606?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80")
           `
         }}
       >
@@ -26,7 +25,7 @@ export default function GivingPage() {
             <h1 className="mb-5 text-5xl font-bold">Giving</h1>
             <p className="mb-5 text-lg">
               Your generosity makes the ministry of Mount Hermon possible. 
-              Thank you for partnering with us to share God’s love.
+              Thank you for partnering with us to share Gods love.
             </p>
             <a
               href="#waysToGive"
@@ -51,7 +50,7 @@ export default function GivingPage() {
               <div className="card-body">
                 <h3 className="card-title text-xl font-semibold">Online Giving</h3>
                 <p className="text-gray-700">
-                  Give securely through our online portal. It’s fast, easy, and 
+                  Give securely through our online portal. It is fast, easy, and 
                   accessible from anywhere.
                 </p>
                 <div className="card-actions justify-end">
@@ -72,8 +71,8 @@ export default function GivingPage() {
               <div className="card-body">
                 <h3 className="card-title text-xl font-semibold">Text to Give</h3>
                 <p className="text-gray-700">
-                  Simply text the amount you’d like to give to our dedicated number. 
-                  After a quick setup, it’s as easy as sending a text.
+                  Simply text the amount you would like to give to our dedicated number. 
+                  After a quick setup, it is as easy as sending a text.
                 </p>
                 <div className="card-actions justify-end">
                   <button
@@ -90,7 +89,7 @@ export default function GivingPage() {
             {/* Card #3: Checks & In-Person */}
             <div className="card bg-base-100 shadow-xl">
               <div className="card-body">
-                <h3 className="card-title text-xl font-semibold">Checks & In-Person</h3>
+                <h3 className="card-title text-xl font-semibold">Checks and In-Person</h3>
                 <p className="text-gray-700">
                   Prefer to give by check or in-person? You can drop off your 
                   offering during service or mail it to our church office.
@@ -114,7 +113,7 @@ export default function GivingPage() {
           <div className="bg-base-200 p-8 rounded-lg shadow-md">
             <h2 className="text-2xl font-semibold mb-4">Why We Give</h2>
             <p className="text-gray-700 leading-relaxed">
-              Giving is part of our worship to God. It’s an expression of our 
+              Giving is part of our worship to God. It is an expression of our 
               gratitude and trust, and a way to invest in the work that God is 
               doing in our community and around the world. 
             </p>

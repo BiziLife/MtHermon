@@ -3,6 +3,7 @@ import Navbar from '../app/components/Navbar';
 import React from "react";
 import Footer from '../app/components/Footer';
 import Link from "next/link";
+import Image from 'next/image';
 
 
 export default function HomePage() {
@@ -126,7 +127,7 @@ export default function HomePage() {
                 <h3 className="card-title text-xl">Gospel Centered Teaching</h3>
                 <p>
                 Everything we do at Mount Hermon is rooted in the truth and hope of the gospel.
-                Our messages and teachings focus on the life-changing power of God’s Word, equipping 
+                Our messages and teachings focus on the life-changing power of Gods Word, equipping 
                 believers to grow deeper in faith and to live out biblical principles daily. Through clear, 
                 relevant, and Christ-centered sermons, we strive to illuminate Scripture so it speaks into the real 
                 challenges and joys we face.
@@ -150,7 +151,7 @@ export default function HomePage() {
                 with other organizations.
                 </p>
                 <p>
-                 Our desire is to reflect Christ’s love by meeting needs, sharing hope, and building genuine relationships—because we believe that a church’s impact is measured not just by the size of its services, but by the depth of its love.
+                 Our desire is to reflect Christs love by meeting needs, sharing hope, and building genuine relationships—because we believe that a churchs impact is measured not just by the size of its services, but by the depth of its love.
                 </p>
               </div>
             </div>

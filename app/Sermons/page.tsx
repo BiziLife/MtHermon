@@ -55,7 +55,6 @@ export default function SermonsPage() {
               rgba(0, 0, 0, 0.3),
               rgba(0, 0, 0, 0.5)
             ),
-            url("https://images.unsplash.com/photo-1499824920520-bc82083d7c5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80")
           `
         }}
       >
