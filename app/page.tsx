@@ -3,7 +3,6 @@ import Navbar from '../app/components/Navbar';
 import React from "react";
 import Footer from '../app/components/Footer';
 import Link from "next/link";
-import Image from 'next/image';
 
 
 export default function HomePage() {
@@ -38,7 +37,7 @@ export default function HomePage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl font-semibold">Get Involved</h2>
             <p className="text-gray-600 mt-2">
-              There is a place for everyone at Mount Hermon—check out ways to connect and grow.
+              There is a place for everyone at Mount Hermon check out ways to connect and grow.
             </p>
           </div>
 
@@ -49,7 +48,7 @@ export default function HomePage() {
                 <h3 className="card-title text-xl font-bold">Sermons</h3>
                 <p>
                   Missed a service? Catch up on all messages from our teaching team 
-                  and stay rooted in God's Word.
+                  and stay rooted in Gods Word.
                 </p>
                 <div className="card-actions justify-end">
                   <Link href="/Sermons">
@@ -98,7 +97,7 @@ export default function HomePage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl font-semibold">Our Mission</h2>
             <p className="text-gray-600 mt-2">
-              Passionate worship, gospel-centered teaching, and unwavering love 
+              Passionate worship, gospel centered teaching, and unwavering love 
               for our community.
             </p>
           </div>
@@ -151,7 +150,10 @@ export default function HomePage() {
                 with other organizations.
                 </p>
                 <p>
-                 Our desire is to reflect Christs love by meeting needs, sharing hope, and building genuine relationships—because we believe that a churchs impact is measured not just by the size of its services, but by the depth of its love.
+                 Our desire is to reflect Christs love by meeting needs, 
+                 sharing hope, and building genuine relationships—because 
+                 we believe that a churchs impact is measured not just by 
+                 the size of its services, but by the depth of its love.
                 </p>
               </div>
             </div>
