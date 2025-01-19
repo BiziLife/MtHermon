@@ -21,6 +21,9 @@ export default function Navbar() {
             <Link href="/About">About</Link>
           </li>
           <li>
+            <Link href="/Events">Events</Link>
+          </li>
+          <li>
             <Link href="/Sermons">Sermons</Link>
           </li>
           <li>
@@ -61,6 +64,9 @@ export default function Navbar() {
             </li>
             <li>
               <Link href="/About">About</Link>
+            </li>
+            <li>
+              <Link href="/Events">Events</Link>
             </li>
             <li>
               <Link href="/Sermons">Sermons</Link>

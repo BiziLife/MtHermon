@@ -12,10 +12,10 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl font-bold">Mount Hermon Church</h2>
             <p className="text-sm text-gray-600">
-              123 Church Street, City, State, ZIP
+              171 Mt Hermon Rd, Lynch Station, VA, 24571
             </p>
             <p className="text-sm text-gray-600">
-              (123) 456-7890
+              (434) 369-7020
             </p>
           </div>
 
@@ -26,6 +26,9 @@ export default function Footer() {
             </Link>
             <Link href="/Sermons" className="hover:underline">
               Sermons
+            </Link>
+            <Link href="/Events" className="hover:underline">
+              Events
             </Link>
             <Link href="/Services" className="hover:underline">
               Services

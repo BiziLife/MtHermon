@@ -2,6 +2,7 @@
 import Navbar from '../app/components/Navbar';
 import React from "react";
 import Footer from '../app/components/Footer';
+import Link from "next/link";
 
 
 export default function HomePage() {
@@ -25,7 +26,6 @@ export default function HomePage() {
             <div className="max-w-3xl">
               <h1 className="mb-5 text-5xl font-bold">Welcome to Mt Hermon Church</h1>
               <p className="mb-8 text-lg"> A Place to Belong, A Family to Grow With </p>
-              <button className="btn btn-primary bg-gradient-to-r from-purple-500 to-indigo-600 text-white font-semibold hover:shadow-xl transition duration-300 ease-in-out transform hover:scale-105">Plan a Visit</button>
             </div>
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function HomePage() {
           <div className="text-center mb-10">
             <h2 className="text-3xl font-semibold">Get Involved</h2>
             <p className="text-gray-600 mt-2">
-              There’s a place for everyone at Mount Hermon—check out ways to connect and grow.
+              There is a place for everyone at Mount Hermon—check out ways to connect and grow.
             </p>
           </div>
 
@@ -48,10 +48,12 @@ export default function HomePage() {
                 <h3 className="card-title text-xl font-bold">Sermons</h3>
                 <p>
                   Missed a service? Catch up on all messages from our teaching team 
-                  and stay rooted in God’s Word.
+                  and stay rooted in God's Word.
                 </p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Watch Now</button>
+                  <Link href="/Sermons">
+                    <button className="btn btn-primary">Watch Now</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -65,7 +67,9 @@ export default function HomePage() {
                   ministries for every stage of life.
                 </p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Learn More</button>
+                  <Link href="/Services">
+                    <button className="btn btn-primary">Learn More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -79,7 +83,9 @@ export default function HomePage() {
                   gatherings happening at Mount Hermon.
                 </p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">View Calendar</button>
+                  <Link href="/Events">
+                    <button className="btn btn-primary">View Calendar</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -96,30 +102,55 @@ export default function HomePage() {
             </p>
           </div>
           <div className="grid gap-8 md:grid-cols-2">
-            <div className="flex flex-col justify-center">
-              <h3 className="text-2xl font-bold mb-4">Spreading Hope & Love</h3>
-              <p className="text-gray-700">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse 
-                varius enim in eros elementum tristique. Duis cursus, mi quis viverra 
-                ornare, eros dolor interdum nulla.
-              </p>
-              <p className="text-gray-700 mt-4">
-                Nulla facilisi. Pellentesque ultricies eget ex ac maximus. Vestibulum 
-                ac justo euismod, fermentum orci sed, volutpat urna. Donec blandit 
-                pharetra orci, id dictum purus.
-              </p>
-            </div>
             <div className="card bg-base-200 shadow-xl">
               <div className="card-body">
-                <h3 className="card-title text-xl">Guided by Faith</h3>
+                <h3 className="card-title text-xl">Worship</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam 
-                  rhoncus eget velit quis aliquet. Nam hendrerit dignissim purus, 
-                  vel tempor metus pharetra eu.
+                 At Mount Hermon, worship is at the heart of who we 
+                 are and what we do. We believe that worship is not 
+                 just a weekly routine, but a transformative encounter 
+                 with the presence of God.
                 </p>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent 
-                  mollis nulla at dolor ultricies, in finibus dui bibendum.
+                 Whether through heartfelt singing, 
+                 reflective prayer, or moments of quiet reverence, our aim is 
+                 to honor and exalt Christ above all else. Our worship gatherings are 
+                 designed to bring people closer to God, fostering an atmosphere where faith is 
+                 renewed and hearts are encouraged.
+                </p>
+              </div>
+            </div>
+
+            <div className="card bg-base-200 shadow-xl">
+              <div className="card-body">
+                <h3 className="card-title text-xl">Gospel Centered Teaching</h3>
+                <p>
+                Everything we do at Mount Hermon is rooted in the truth and hope of the gospel.
+                Our messages and teachings focus on the life-changing power of God’s Word, equipping 
+                believers to grow deeper in faith and to live out biblical principles daily. Through clear, 
+                relevant, and Christ-centered sermons, we strive to illuminate Scripture so it speaks into the real 
+                challenges and joys we face.
+                </p>
+                <p>
+                We want everyone who attends to leave with greater clarity about who God
+                is and how His unchanging Word applies to their lives.
+                </p>
+              </div>
+            </div>
+
+            <div className="card bg-base-200 shadow-xl">
+              <div className="card-body">
+                <h3 className="card-title text-xl">Love for our Community</h3>
+                <p>
+                We believe the church is called to be a beacon of light and 
+                love in the world. At Mount Hermon, this begins in our own 
+                neighborhood and extends to the furthest corners of the globe. 
+                We actively seek ways to serve our local community through 
+                outreach programs, compassion initiatives, and partnerships 
+                with other organizations.
+                </p>
+                <p>
+                 Our desire is to reflect Christ’s love by meeting needs, sharing hope, and building genuine relationships—because we believe that a church’s impact is measured not just by the size of its services, but by the depth of its love.
                 </p>
               </div>
             </div>
