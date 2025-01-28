@@ -106,12 +106,12 @@ export default function HomePage() {
                 <p>
                  At Mount Hermon worship is at the heart of who we 
                  are and what we do. We believe that worship is not 
-                 just a weekly routine&comma; but a transformative encounter 
+                 just a weekly routine, but a transformative encounter 
                  with the presence of God.
                 </p>
                 <p>
                  Whether through heartfelt singing 
-                 reflective prayer or moments of quiet reverence&comma; our aim is 
+                 reflective prayer or moments of quiet reverence, our aim is 
                  to honor and exalt Christ above all else. Our worship gatherings are 
                  designed to bring people closer to God fostering an atmosphere where faith is 
                  renewed and hearts are encouraged.

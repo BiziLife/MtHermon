@@ -15,7 +15,7 @@ export default function ServicesPage() {
             <div className="max-w-xl">
                 <h1 className="mb-5 text-5xl font-bold">Our Ministries & Services</h1>
                 <p className="mb-5">
-                Whether you are a student a parent&comma; or simply seeking fellowship&comma; 
+                Whether you are a student a parent, or simply seeking fellowship, 
                 Mount Hermon Church offers groups and ministries for every stage of life.
                 </p>
                 <button className="btn btn-primary">Join Us</button>
@@ -36,8 +36,8 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Youth Group</h3>
                 <p>
-                    Lorem ipsum dolor sit amet&comma; consectetur adipiscing elit. 
-                    Each week, our youth meet for fun activities&comma; prayer&comma; 
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                    Each week, our youth meet for fun activities, prayer, 
                     and encouraging lessons to grow in faith.
                 </p>
                 <div className="card-actions justify-end">
@@ -51,7 +51,7 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Adult Fellowship</h3>
                 <p>
-                    Join our adult small groups to study the Bible&comma; 
+                    Join our adult small groups to study the Bible,
                     share life experiences, and build authentic relationships.
                 </p>
                 <div className="card-actions justify-end">
@@ -65,8 +65,8 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Church Ministry</h3>
                 <p>
-                    Whether you feel called to serve in worship, hospitality&comma;
-                    teaching&comma; or other areas&comma; we have diverse ministries to get involved in.
+                    Whether you feel called to serve in worship, hospitality,
+                    teaching, or other areas, we have diverse ministries to get involved in.
                 </p>
                 <div className="card-actions justify-end">
                     <button className="btn btn-primary">Learn More</button>
@@ -93,7 +93,7 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Worship Ministry</h3>
                 <p>
-                    Passionate about music and praise&quest; Join our worship team to lead the congregation
+                    Passionate about music and praise? Join our worship team to lead the congregation
                     in uplifting worship each week.
                 </p>
                 <div className="card-actions justify-end">
@@ -107,7 +107,7 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Missions and Outreach</h3>
                 <p>
-                    From local community service to global missions&comma; 
+                    From local community service to global missions,
                     be part of sharing Gods love beyond the walls of the church.
                 </p>
                 <div className="card-actions justify-end">
