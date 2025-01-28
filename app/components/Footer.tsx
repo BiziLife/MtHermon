@@ -12,10 +12,10 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <h2 className="text-xl font-bold">Mount Hermon Church</h2>
             <p className="text-sm text-gray-600">
-              171 Mt Hermon Rd, Lynch Station, VA, 24571
+              171 Mt Hermon Rd&comma;  Lynch Station&comma;  VA&comma;  24571
             </p>
             <p className="text-sm text-gray-600">
-              (434) 369-7020
+              (434) 369 7020
             </p>
           </div>
 

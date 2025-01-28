@@ -50,7 +50,7 @@ export default function GivingPage() {
               <div className="card-body">
                 <h3 className="card-title text-xl font-semibold">Online Giving</h3>
                 <p className="text-gray-700">
-                  Give securely through our online portal. It is fast, easy, and 
+                  Give securely through our online portal. It is fast&comma;  easy&comma;  and 
                   accessible from anywhere.
                 </p>
                 <div className="card-actions justify-end">
@@ -72,7 +72,7 @@ export default function GivingPage() {
                 <h3 className="card-title text-xl font-semibold">Text to Give</h3>
                 <p className="text-gray-700">
                   Simply text the amount you would like to give to our dedicated number. 
-                  After a quick setup, it is as easy as sending a text.
+                  After a quick setup&comma;  it is as easy as sending a text.
                 </p>
                 <div className="card-actions justify-end">
                   <button
@@ -89,9 +89,9 @@ export default function GivingPage() {
             {/* Card #3: Checks & In-Person */}
             <div className="card bg-base-100 shadow-xl">
               <div className="card-body">
-                <h3 className="card-title text-xl font-semibold">Checks and In-Person</h3>
+                <h3 className="card-title text-xl font-semibold">Checks and In Person</h3>
                 <p className="text-gray-700">
-                  Prefer to give by check or in-person? You can drop off your 
+                  Prefer to give by check or in-person&quest; You can drop off your 
                   offering during service or mail it to our church office.
                 </p>
                 <div className="card-actions justify-end">
@@ -114,12 +114,12 @@ export default function GivingPage() {
             <h2 className="text-2xl font-semibold mb-4">Why We Give</h2>
             <p className="text-gray-700 leading-relaxed">
               Giving is part of our worship to God. It is an expression of our 
-              gratitude and trust, and a way to invest in the work that God is 
+              gratitude and trust&comma;  and a way to invest in the work that God is 
               doing in our community and around the world. 
             </p>
             <p className="text-gray-700 mt-4 leading-relaxed">
-              Your faithful giving supports church ministries, outreach efforts, 
-              missions, and day-to-day operations, helping us bring the light 
+              Your faithful giving supports church ministries&comma;  outreach efforts&comma;  
+              missions&comma;  and day to day operations&comma;  helping us bring the light 
               of the gospel to those in need.
             </p>
           </div>

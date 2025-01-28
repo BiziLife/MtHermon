@@ -40,8 +40,8 @@ export default function EventsPage() {
           <div className="max-w-2xl mx-auto">
             <h1 className="mb-5 text-5xl font-bold">Upcoming Events</h1>
             <p className="mb-5 text-lg">
-              Stay connected and get involved in our upcoming gatherings,
-              workshops, and outreach opportunities.
+              Stay connected and get involved in our upcoming gatherings&comma; 
+              workshops&comma;  and outreach opportunities.
             </p>
           </div>
         </div>
@@ -72,10 +72,10 @@ export default function EventsPage() {
                 <div className="card-body">
                   <h3 className="card-title text-xl font-bold">{event.title}</h3>
                   <p className="text-gray-600">
-                    <span className="font-semibold">Date:</span> {event.date}
+                    <span className="font-semibold">Date</span> {event.date}
                   </p>
                   <p className="text-gray-600">
-                    <span className="font-semibold">Location:</span> {event.location}
+                    <span className="font-semibold">Location</span> {event.location}
                   </p>
                   <p className="mt-2 text-gray-700">{event.description}</p>
                   <div className="card-actions justify-end mt-4">

@@ -15,7 +15,7 @@ export default function ServicesPage() {
             <div className="max-w-xl">
                 <h1 className="mb-5 text-5xl font-bold">Our Ministries & Services</h1>
                 <p className="mb-5">
-                Whether you are a student, a parent, or simply seeking fellowship, 
+                Whether you are a student a parent&comma; or simply seeking fellowship&comma; 
                 Mount Hermon Church offers groups and ministries for every stage of life.
                 </p>
                 <button className="btn btn-primary">Join Us</button>
@@ -27,9 +27,7 @@ export default function ServicesPage() {
         <section className="max-w-5xl mx-auto px-4">
             <div className="text-center mb-10">
             <h2 className="text-3xl font-semibold">Explore Our Ministries</h2>
-            <p className="text-gray-600 mt-2">
-                Below is some placeholder text—replace with details about your church ministries!
-            </p>
+            <p className="text-gray-600 mt-2">Below is some placeholder text—replace with details about your church ministries</p>
             </div>
 
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
@@ -38,8 +36,8 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Youth Group</h3>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-                    Each week, our youth meet for fun activities, prayer, 
+                    Lorem ipsum dolor sit amet&comma; consectetur adipiscing elit. 
+                    Each week, our youth meet for fun activities&comma; prayer&comma; 
                     and encouraging lessons to grow in faith.
                 </p>
                 <div className="card-actions justify-end">
@@ -53,7 +51,7 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Adult Fellowship</h3>
                 <p>
-                    Join our adult small groups to study the Bible, 
+                    Join our adult small groups to study the Bible&comma; 
                     share life experiences, and build authentic relationships.
                 </p>
                 <div className="card-actions justify-end">
@@ -67,8 +65,8 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Church Ministry</h3>
                 <p>
-                    Whether you feel called to serve in worship, hospitality,
-                    teaching, or other areas, we have diverse ministries to get involved in.
+                    Whether you feel called to serve in worship, hospitality&comma;
+                    teaching&comma; or other areas&comma; we have diverse ministries to get involved in.
                 </p>
                 <div className="card-actions justify-end">
                     <button className="btn btn-primary">Learn More</button>
@@ -95,7 +93,7 @@ export default function ServicesPage() {
                 <div className="card-body">
                 <h3 className="card-title text-xl font-bold">Worship Ministry</h3>
                 <p>
-                    Passionate about music and praise? Join our worship team to lead the congregation
+                    Passionate about music and praise&quest; Join our worship team to lead the congregation
                     in uplifting worship each week.
                 </p>
                 <div className="card-actions justify-end">
@@ -107,9 +105,9 @@ export default function ServicesPage() {
             {/* Missions or Outreach (Optional) */}
             <div className="card bg-base-100 shadow-xl">
                 <div className="card-body">
-                <h3 className="card-title text-xl font-bold">Missions & Outreach</h3>
+                <h3 className="card-title text-xl font-bold">Missions and Outreach</h3>
                 <p>
-                    From local community service to global missions, 
+                    From local community service to global missions&comma; 
                     be part of sharing Gods love beyond the walls of the church.
                 </p>
                 <div className="card-actions justify-end">
