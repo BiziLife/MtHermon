@@ -40,8 +40,8 @@ export default function EventsPage() {
           <div className="max-w-2xl mx-auto">
             <h1 className="mb-5 text-5xl font-bold">Upcoming Events</h1>
             <p className="mb-5 text-lg">
-              Stay connected and get involved in our upcoming gatherings&comma; 
-              workshops&comma;  and outreach opportunities.
+              Stay connected and get involved in our upcoming gatherings,
+              workshops, and outreach opportunities.
             </p>
           </div>
         </div>

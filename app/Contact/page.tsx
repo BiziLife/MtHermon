@@ -18,7 +18,7 @@ export default function ContactPage() {
             <div className="max-w-xl">
                 <h1 className="mb-5 text-5xl font-bold">Get in Touch</h1>
                 <p className="mb-5">
-                We love to hear from you! Reach out with questions&comma;  prayer requests&comma; 
+                We love to hear from you! Reach out with questions, prayer requests,
                 or learn more about upcoming events at Mount Hermon Church.
                 </p>
             </div>
@@ -30,7 +30,7 @@ export default function ContactPage() {
             <div className="text-center mb-8">
             <h2 className="text-3xl font-semibold">Contact Us</h2>
             <p className="text-gray-600 mt-2">
-                Fill out the form below&comma;  and we will respond as soon as possible.
+                Fill out the form below, and we will respond as soon as possible.
             </p>
             </div>
 
