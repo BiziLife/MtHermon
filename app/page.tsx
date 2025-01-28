@@ -1,7 +1,7 @@
 "use client";
-import Navbar from "../app/components/Navbar";
+import Navbar from "./components/Navbar";
 import React from "react";
-import Footer from "../app/components/Footer";
+import Footer from "./components/Footer"; 
 import Link from "next/link";
 
 export default function HomePage() {
