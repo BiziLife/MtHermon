@@ -18,13 +18,13 @@ export default function About() {
                 rgba(0, 0, 0, 0.3),
                 rgba(0, 0, 0, 0.7)
               ), 
-              url("https://images.unsplash.com/photo-1596902189283-b01bf57b2ef7?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80")
+              url("/images/AboutUs.png")
             `
           }}
         >
           <div className="hero-content text-center text-neutral-content py-20">
             <div className="max-w-xl mx-auto">
-              <h1 className="mb-5 text-5xl font-bold">About Us</h1>
+            <h1 className="mb-5 text-6xl font-extrabold text-white drop-shadow-lg"> About Us </h1>
             </div>
           </div>
         </div>
@@ -38,12 +38,12 @@ export default function About() {
           {/* Optional Sermon/Video Embed */}
           <div className="card w-full max-w-3xl mx-auto shadow-xl mb-8">
             <figure className="aspect-video w-full">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/VIDEO_ID_1"
-                title="Welcome Video"
-                allowFullScreen
-              />
+            <iframe
+              className="w-full max-w-3xl mx-auto rounded-lg shadow-lg aspect-video"
+              src="https://www.youtube.com/embed/VIDEO_ID"
+              title="Welcome Video"
+              allowFullScreen
+            ></iframe>
             </figure>
             <div className="card-body">
               <h2 className="card-title">Welcome Video</h2>
@@ -77,8 +77,8 @@ export default function About() {
           </div>
         </section>
 
-        {/* Additional Beliefs / Doctrinal Statement Section */}
-        <section className="max-w-6xl mx-auto px-4 py-8 md:px-6 lg:px-8">
+        
+        <section className="max-w-6xl mx-auto px-4 py-8 md:px-6 lg:px-8 mt-16">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-semibold">What We Believe</h2>
             <p className="text-gray-600 mt-2">
